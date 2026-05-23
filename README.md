@@ -97,28 +97,15 @@ Main R packages used:
 ---
 
 ## Repository Structure
-
-```text
 liver-survival-analysis-cox-ph-model/
 │
 ├── README.md
 ├── .gitignore
-│
 ├── data/
-│   ├── raw/
-│   │   └── Liver.csv
-│   └── processed/
-│       └── liver_clean.csv
-│
+│   └── Liver.csv
 ├── scripts/
-│   ├── 01_data_preparation.R
-│   ├── 02_kaplan_meier_analysis.R
-│   ├── 03_cox_ph_modeling.R
-│   └── 04_model_diagnostics.R
-│
-├── notebooks/
-│   └── liver_survival_analysis_report.Rmd
-│
-└── outputs/
-    ├── figures/
-    └── tables/
+│   └── survival_analysis_liver.R
+├── outputs/
+│   └── figures/
+└── notebooks/
+    └── liver_survival_analysis_report.Rmd
